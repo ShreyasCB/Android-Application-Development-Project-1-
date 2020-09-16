@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_action_add"
+        android:title="Settings"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/video"
+        android:title="Video Capture"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/share"
+        android:title="Share Intent"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/location"
+        android:title="Location and Map"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/tts"
+        android:title="Text to Speech"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/logout"
+        android:title="Log Out"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/web"
+        android:title="WebView"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/progress"
+        android:title="ProgressDialog"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/aadhaar"
+        android:title="Aadhaar Details "
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/speechTV"
+        android:title="Speech "
+        app:showAsAction="never"/>
+
+
+
+</menu>
